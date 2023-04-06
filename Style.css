@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+.Container{
+    background-color: gray;
+    
+}
+
+/* CONTENEDOR DE CABECERA */
+.Container__Header{
+background-image:url(./Paisaje.jpg);
+background-size: cover;
+height: 100vh;
+color: white;
+}
+.Container__Header--Nav{
+ /* background-color: brown; */
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ align-items: center;
+ height: 8rem;
+ margin: auto 10%;
+}
+.Logo{
+    height: 7rem;
+    border: .3rem solid white;
+    border-radius: 50%;
+}
+.Nav ul{
+    display: flex;
+    flex-direction: row;
+    font-size: 2rem;
+    list-style: none;
+}
+
+.Nav ul a{
+    margin: .8rem;
+    padding: .8rem;
+    text-decoration: none;
+    color: white;
+}
+
+.Nav ul a:hover{
+    background-color:black;
+}
+
+.Container__Header--Banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.Container__Header--Banner h1{
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.Container__Header--Banner p{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 300;
+    margin-top: 3rem;
+}
+
+/* CONTENEDOR DE PROYECTOS */
+.Container__Main{
+background-color: green ;
+height: 100vh;
+}
+/* CONTENEDOR DE PIE DE PAGINA */
+.Container__Footer{
+background-color: blue;
+height: 600rem;
+}
