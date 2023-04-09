@@ -14,7 +14,7 @@ html{
 
 /* CONTENEDOR DE CABECERA */
 .Container__Header{
-background-image:url(./Paisaje.jpg);
+background-image:url(./Pexels.jpg);
 background-size: cover;
 height: 100vh;
 color: white;
@@ -71,13 +71,75 @@ color: white;
     margin-top: 3rem;
 }
 
+.Social{
+    margin-top: 1.5rem;
+    height: .6rem;   
+}
+.Social span{
+    margin: .5rem;
+}
+
 /* CONTENEDOR DE PROYECTOS */
 .Container__Main{
-background-color: green ;
+background-color:  #0b0c0f;
 height: 100vh;
+padding: 10% auto;
+color: white;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+.Container__Main h1{
+    font-size: 4rem;
+    font-weight: bold;
+}
+.Container__Main p{
+    margin-top: 2rem;
+    align-items: center;
+    text-align: center;
+    font-weight: 300;
+}
+.Cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    margin-top: 3rem;
+}
+figure{
+    font-size: 2rem;
+    text-align: center;
+}
+figure img{
+    height: 30rem;
 }
 /* CONTENEDOR DE PIE DE PAGINA */
 .Container__Footer{
-background-color: blue;
-height: 600rem;
+background-color:#0b0c0f;
+height: 60rem;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+color: white;
+}
+.Container__Footer h1{
+font-size: 4rem ;
+font-weight: bold;
+}
+
+.Container__Footer p{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 300;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.Container__Footer span{
+    margin: .5rem;
+}
+
+hr{
+    width: 10%;
+    border: .2rem solid #00a9e2;
 }
