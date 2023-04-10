@@ -14,7 +14,7 @@ html{
 
 /* CONTENEDOR DE CABECERA */
 .Container__Header{
-background-image:url(./Pexels.jpg);
+background-image:url(./Imagenes/Pexels.jpg);
 background-size: cover;
 height: 100vh;
 color: white;
